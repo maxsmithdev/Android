@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "161158380945",
+    "firebase_url": "https://ratchet-chat.firebaseio.com",
+    "project_id": "ratchet-chat",
+    "storage_bucket": "ratchet-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161158380945:android:a733d3f4cc7a3fb5",
+        "android_client_info": {
+          "package_name": "com.example.vincent.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161158380945-gkdik7a123bg8v81opeo6smequrfjg65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vincent.appchat",
+            "certificate_hash": "7F0642DF50F92F3E16FCD6B8F668EF23DE74E3D7"
+          }
+        },
+        {
+          "client_id": "161158380945-oh0sj0dhrgu7ddriiio0vlgd03b5oj9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnwVc4ic6Jg2RMCkkgiIdQlXSkGJSve1k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161158380945-oh0sj0dhrgu7ddriiio0vlgd03b5oj9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

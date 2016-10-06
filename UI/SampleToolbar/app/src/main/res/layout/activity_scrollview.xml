@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.vincent.sampletoolbar.widget.SimpleScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#e2343d"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#0e9cde"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#5ade0e"/>
+
+        </LinearLayout>
+
+    </com.example.vincent.sampletoolbar.widget.SimpleScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#d0ff15" />
+
+</FrameLayout>
